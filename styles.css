@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  line-height: 2;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  margin-top: 50px auto 0 auto;
+  color: #407088;
+  line-height: 2;
+}
+
+.intro {
+  width: 50%;
+  margin: 0 auto;
+}
+.pro {
+  font-size: 2rem;
+  color: #407088;
+  font-weight: normal;
+}
+.pro-pic {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.push-pic-down {
+  padding-bottom: 35%;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2 rem;
+  color: #407088;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #407088;
+  font-size: 1.5rem;
+}
+
+.title {
+  background-image: url("./images/new_york_skyline_all_cm1-.png");
+  background-repeat: no-repeat;
+  background-color: #f1ece7;
+  background-position: center bottom;
+  background-size: contain;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #fdf0f6;
+  /* background-color: #f9fce1; */
+  padding: 30px;
+}
+
+.skills-container {
+  background-color: #defcfc;
+}
+
+.contact-me {
+  background-color: #cbf1f5;
+}
+
+.bottom-container {
+  background-color: #a6e3e9;
+  padding-top: 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 20px;
+}
+.skills {
+  width: 50%;
+  margin: 0px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 50px auto 30px;
+  color: #407088;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #40514e;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 50px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+  fill: #eaf6f6;
+  text-decoration: none;
+}
+.copy-right {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.my-button {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.linkedIn-link {
+  font-size: 1rem;
+  color: #0077b7;
+  font-weight: bold;
+}
+.icon {
+  font-weight: normal;
+}
+.html-img {
+  grid-area: htmlImg;
+}
+.html {
+  grid-area: html;
+}
+.css-img {
+  grid-area: cssImg;
+}
+.css {
+  grid-area: css;
+}
+.js-img {
+  grid-area: jsImg;
+}
+.js {
+  grid-area: js;
+}
+.skills-grid {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "htmlImg html html"
+    "css css cssImg"
+    "jsImg js js";
+}
+.skills-img {
+  width: 100%;
+}
+.skills-text {
+  margin: 10%;
+}
