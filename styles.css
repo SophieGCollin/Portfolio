@@ -24,8 +24,7 @@ h1 {
 .pro-pic {
   display: inline-block;
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
 
   background-repeat: no-repeat;
   background-position: center center;
